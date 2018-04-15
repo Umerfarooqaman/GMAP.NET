@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GMAP.NET", "GMAP.NET\GMAP.NET.csproj", "{975FE42F-4C5B-425F-9558-4C282E223D1D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistanceMatrix", "DistanceMatrix\DistanceMatrix.csproj", "{DE3CF421-CAFC-4FB0-BF39-CE1D35D8ACCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utils", "Utils\Utils.csproj", "{CCF899C7-28A6-4B0C-8091-7CF3A66693CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{975FE42F-4C5B-425F-9558-4C282E223D1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{975FE42F-4C5B-425F-9558-4C282E223D1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{975FE42F-4C5B-425F-9558-4C282E223D1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{975FE42F-4C5B-425F-9558-4C282E223D1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE3CF421-CAFC-4FB0-BF39-CE1D35D8ACCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE3CF421-CAFC-4FB0-BF39-CE1D35D8ACCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE3CF421-CAFC-4FB0-BF39-CE1D35D8ACCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE3CF421-CAFC-4FB0-BF39-CE1D35D8ACCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCF899C7-28A6-4B0C-8091-7CF3A66693CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCF899C7-28A6-4B0C-8091-7CF3A66693CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCF899C7-28A6-4B0C-8091-7CF3A66693CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCF899C7-28A6-4B0C-8091-7CF3A66693CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
